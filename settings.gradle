@@ -1,1 +1,2 @@
-include ':app', ':lib:QMBForm'
+include ':app', ':QMBForm'
+project(':QMBForm').projectDir = new File('lib/QMBForm')

@@ -1,5 +1,6 @@
 package com.quemb.qmbform.sample.model;
 
+
 import android.support.v4.app.Fragment;
 
 /**
