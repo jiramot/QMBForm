@@ -46,7 +46,7 @@ public class FormManager {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                FormItemDescriptor itemDescriptor = adapter.getItem(position);
+                FormItemDescriptor itemDescriptor = (FormItemDescriptor)mListView.getItemAtPosition(position);
 
                 Cell cell = itemDescriptor.getCell();
                 if (cell != null && itemDescriptor instanceof RowDescriptor){
